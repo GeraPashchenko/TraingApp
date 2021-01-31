@@ -1,0 +1,39 @@
+{
+  "title": "Hansom!",
+  "bodyTypes": {
+    "Ectomorph": "Ectomorph",
+    "Mesomorph": "Mesomorph",
+    "Endomorph": "Endomorph"
+  },
+  "bodyTypesDifferences": {
+    "Ectomorph": ["Lean and long", "With difficulty building muscle"],
+    "Mesomorph": ["Big", "High body fat", "Often pear-shaped", "With a high tendency to store body fat"],
+    "Endomorph": ["Muscular and well-built", "With a high metabolism and responsive muscle cells"]
+  },
+  "chooseBodyType": "Choose this",
+  "registerForm": {
+    "header": "Register Form",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "age": "Age",
+    "email": "E-mail",
+    "password": "Password",
+    "submit": "Register"
+  },
+  "signInForm": {
+    "header": "Sign In Form",
+    "email": "E-mail",
+    "password": "Password",
+    "submit": "Sign In"
+  },
+  "createTraining": {
+    "chooseTrainingType": "Choose training type",
+    "exerciseName": "Exercise name",
+    "repeats": "Amount of repeats",
+    "howToDo": "How to do",
+    "tips": "Tips",
+    "addExercise": "Add exercise",
+    "Exercise": "Exercise №"
+  },
+  "trainingTypes": ["Cardio", "Muscle gain", "Stretching", "Therapeutic","Rehabilitation"]
+}

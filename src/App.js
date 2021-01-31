@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+const React = require('react');
+const { BrowserRouter , Route, Switch } = require("react-router-dom");
+const Register1 = require("./Pages/Register/Register1");
+const Register2 = require("./Pages/Register/Register2");
+const SignIn = require("./Pages/Sign-In/Sign-In");
+const CreateTraining = require("./Pages/Training/Create-Training");
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path='/register1' component={Register1} />
+          <Route exact path='/register2' component={Register2}/>
+          <Route exact path='/signIn' component={SignIn}/>
+          <Route exact path='/createTraining' component={CreateTraining}/>
+        </Switch>
+      </BrowserRouter>
   );
 }
 
